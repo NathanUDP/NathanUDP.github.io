@@ -1,0 +1,314 @@
+body {
+    background-color: #191e57;
+    color: #f52d55;
+    font-family: monospace;
+    margin: 0 auto;
+    font-size: larger;
+}
+#centeredheader {
+    text-align: center;
+    border: solid #191e57 10px;
+    background-color: #191e57;
+}
+.header-text {
+    font-family: monospace;
+    text-shadow: 5px 5px 5px black;
+    color: #4c27d7;
+    margin-bottom: 0px;
+    background-color: #f52d55;
+    animation-name: color-gradient;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes color-gradient {
+    0% { background-color:#191e57; }
+    50% { background-color:#f52d55; }
+    100% { background-color:#191e57; }
+}
+nav {
+    background-color: #f52d55;
+    
+}
+.navlist {
+    display: flex;
+    justify-content: center;
+}
+
+.navlist li{
+    list-style-type: none;
+    font-size: 150%;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px black;
+    color:#4c27d7;
+    padding: 0.8%;
+    border: solid #191e57 5px;
+}
+li a {
+    text-decoration: none;
+    color: #4c27d7;
+}
+.navlist li:hover {
+    cursor: pointer;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: inset 5px 5px 5px #191e57,
+    inset -5px -5px 5px #191e57;
+}
+#intro-header {
+    text-align: center;
+    font-family: monospace;
+    color: #f52d55;
+    text-shadow: 2px 2px 5px #f52d55,
+    -2px -2px 5px #f52d55;
+    font-style: italic;
+    border: solid 5px #4c27d7;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+    animation-name: slide-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s; 
+    animation-timing-function: linear;   
+}
+@keyframes slide-in {
+    0% { border-color: #f52d55;
+        border-shadow: 2px 2px 10px #f52d55,
+        -2px -2px 10px #f52d55,
+        inset 2px 2px 10px #f52d55,
+        inset -2px -2px 10px #f52d55; }
+    50% { border-color: #4c27d7;
+        box-shadow: 2px 2px 10px #4c27d7,
+        -2px -2px 10px #4c27d7,
+        inset 2px 2px 10px #4c27d7,
+        inset -2px -2px 10px #4c27d7;
+     }
+    100% { border-color: #f52d55;
+        border-shadow: 2px 2px 10px #4c27d7,
+        -2px -2px 10px #4c27d7,
+        inset 2px 2px 10px #4c27d7,
+        inset -2px -2px 10px #4c27d7; }
+}
+#mainsec {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#intro-p {
+    text-align: center;
+    border: solid 5px #4c27d7;
+    color: #f52d55;
+    font-family: monospace;
+    font-size: 25px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+}
+aside {
+    display: flex;
+    justify-content: center;
+}
+.art {
+    font-family: monospace;
+    color: #f52d55;
+    text-align: center;
+    font-size: 20px;
+    border: #4c27d7 solid 5px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+}
+.art2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border: #4c27d7 solid 5px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+    padding: 50px;
+}
+.art2 li {
+    flex-basis: auto;
+    flex-grow: auto;
+    border: #4c27d7 solid 5px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+    padding: 10px;
+    text-align: center;
+    color: #f52d55;
+    font-family: monospace;
+}
+.art2 li:hover {
+    background-color: #4c27d7;
+}
+footer p {
+    text-align: center;
+    color: #f52d55;
+    font-family: monospace;
+}
+.ABheader {
+    color: #f52d55;
+    font-family: monospace;
+    text-align: center;
+    border: solid #4c27d7 5px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;  
+}
+.ABp {
+   font-family: monospace;
+   color: #f52d55;
+   font-size: 20px;
+}
+.ABme {
+    margin: 20px;
+    float: left;
+    border: 10px solid #4c27d7;
+}
+.ABneptune {
+    float: right;
+    margin: 50px;
+    border: 10px solid #4c27d7; 
+}
+.SSmainheader {
+    font-family: monospace;
+    color:#f52d55;
+    text-align: center;
+    text-decoration: underline;
+}
+.SSsecondheader {
+    font-family: monospace;
+    color: #f52d55
+}
+.firstSSimg {
+    float: right;
+    margin: 10px;
+}
+.secondSSimg {
+    float: left;
+    margin: 10px;
+}
+.MPheader {
+    text-align: center;
+    text-decoration: underline;
+}
+.MPimg1 {
+    float: right;
+    margin: 20px;
+}
+.MPimg2 {
+    float: left;
+    margin: 20px;
+}
+.wiresharkheader {
+    text-align: center;
+    text-decoration: underline;
+}
+.wiresharkimg1 {
+    float: right;
+    margin: 10px;
+}
+.wiresharkimg2 {
+    float: left;
+    margin: 10px;
+}
+.wiresharkimg3 {
+    float: left;
+    margin: 10px;
+}
+.wiresharkimg4 {
+    margin: 10px;
+}
+.nsheader {
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+.nsmain p {
+    font-family: monospace;
+    font-size: larger;
+}
+
+#ns {
+    float: right;
+    margin: 50px;
+    border: 10px solid #4c27d7; 
+}
+.artul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.artul li {
+    border: 10px solid #4c27d7;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7; 
+    text-align: center;
+    text-wrap: wrap;
+}
+.artul li:hover {
+    background-color: #4c27d7;
+}
+.contactul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.contactul li {
+    border: 5px solid #4c27d7;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+}
+.contactul a {
+    border: 5px solid #4c27d7;
+    padding: 10px;
+    color: #f52d55;
+    box-shadow: 2px 2px 10px #4c27d7,
+    -2px -2px 10px #4c27d7,
+    inset 2px 2px 10px #4c27d7,
+    inset -2px -2px 10px #4c27d7;
+}
+.contactul a:hover {
+    background-color: #4c27d7;
+}
+#contactimg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.phishing1 {
+    float: right;
+    margin: 20px;
+}
+.phishing2 {
+    margin: 20px;
+}
+.phishing3, .phishing4, .phishing5 {
+    margin: 20px;
+
+}
+.phishing6, .phishing7, .phishing8,
+.phishing9, .phishing10, .phishing11,
+.phishing12, .phishing13, .phishing14 {
+    margin: 20px;
+}
