@@ -149,6 +149,9 @@ aside {
     color: #f52d55;
     font-family: monospace;
 }
+.art2 li a {
+    object-fit: contain;
+}
 .art2 li:hover {
     background-color: #4c27d7;
 }
