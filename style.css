@@ -149,20 +149,16 @@ aside {
     color: #f52d55;
     font-family: monospace;
 }
-.art2 li a {
-    object-fit: contain;
-    overflow: hidden;
-}
 .art2 li:hover {
     background-color: #4c27d7;
-.art2 img {
-    width: 100%;
-    height: auto;
 }
 footer p {
     text-align: center;
     color: #f52d55;
     font-family: monospace;
+}
+.art.red {
+    color:#f52d55;
 }
 .ABheader {
     color: #f52d55;
